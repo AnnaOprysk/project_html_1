@@ -1,0 +1,175 @@
+.title {
+    text-align: center;
+}
+
+.word1 {
+    color: firebrick
+}
+
+.word2 {
+    color: coral
+}
+
+.word3 {
+    color: yellowgreen
+}
+
+.word4 {
+    color: cornflowerblue
+}
+
+.word5 {
+    color: blueviolet
+}
+
+.discription {
+    font-style: italic;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    display: block;
+}
+
+h3 {
+    text-align: center;
+}
+
+.allcolors {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.color1:hover {
+    color: firebrick
+}
+
+.color1 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color2:hover {
+    color: dodgerblue
+}
+
+.color2 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color3:hover {
+    color: black
+}
+
+.color3 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color4:hover {
+    color: coral
+}
+
+.color4 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color5:hover {
+    color: forestgreen
+}
+
+.color5 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color6:hover {
+    color: yellow
+}
+
+.color6 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color7:hover {
+    color: hotpink
+}
+
+.color7 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color8:hover {
+    color: darkviolet
+}
+
+.color8 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color9:hover {
+    color: beige
+}
+
+.color9 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color10:hover {
+    color: saddlebrown
+}
+
+.color10 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.color11:hover {
+    color: dimgrey
+}
+
+.color11 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    box-sizing: border-box;
+}
