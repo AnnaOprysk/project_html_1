@@ -1,0 +1,33 @@
+.father {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.a {
+    border-style: double;
+    background-color: darkorchid;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.b {
+    border-style: double;
+    background-color: darksalmon;
+    height: 400px;
+    width: 80%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.c {
+    border-style: double;
+    background-color: chartreuse;
+    height: 400px;
+    width: 15%;
+    text-align: center;
+}
