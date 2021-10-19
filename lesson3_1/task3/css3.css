@@ -1,0 +1,30 @@
+
+.top {
+    background-color: dodgerblue;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.father {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    width: 500px;
+}
+
+.kid {
+    background-color: blue;
+    text-align: center;
+    height: 150px;
+    flex-grow: 2;
+}
+
+.end {
+    background-color: darkslateblue;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin-top: 10px;
+}
