@@ -22,7 +22,6 @@
     column-gap: 5px;
 }
 
-
 .b {
     background-color: lightgrey;
     text-align: center;
@@ -41,7 +40,7 @@
     flex-grow: 1;
     height: 150px;
     text-align: center;
-justify-content: center;
+    justify-content: center;
 }
 
 .d {
