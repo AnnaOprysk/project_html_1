@@ -1,3 +1,9 @@
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-style: double;
+    width: 500px;
+}
 .father {
     display: flex;
     justify-content: space-around;

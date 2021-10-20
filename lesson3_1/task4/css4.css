@@ -1,0 +1,41 @@
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.header {
+    background-color: dodgerblue;
+    height: 50px;
+    text-align: center;
+}
+
+.nav {
+    background-color: darkslateblue;
+    height: 40px;
+    text-align: center;
+}
+
+.father {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.kid1 {
+    background-color: darkslategrey;
+    flex-grow: 3;
+    text-align: center;
+}
+
+.kid2 {
+    background-color: darkcyan;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer {
+    background-color: cadetblue;
+    height: 40px;
+    text-align: center;
+}
