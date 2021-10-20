@@ -1,0 +1,40 @@
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.main {
+    display: flex;
+    column-gap: 10px;
+}
+
+.home, .about {
+    background-color: cornflowerblue;
+    height: 230px;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.info {
+    background-color: dodgerblue;
+    width: 300px;
+    text-align: center;
+    height: 130px;
+    margin-top: 10px;
+}
+
+.father {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.kid {
+    background-color: deepskyblue;
+    height: 100px;
+    flex-grow: 1;
+    width: 50px;
+    text-align: center;
+}
