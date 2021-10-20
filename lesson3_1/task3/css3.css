@@ -1,4 +1,8 @@
-
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 500px;
+}
 .top {
     background-color: dodgerblue;
     width: 500px;

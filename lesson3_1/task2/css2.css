@@ -1,0 +1,49 @@
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 500px;
+}
+#header {
+    background-color: darkseagreen;
+    text-align: center;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.father {
+    display: flex;
+    width: 500px;
+    column-gap: 10px;
+}
+
+.menu {
+    height: 300px;
+    width: 150px;
+    background-color: mediumslateblue;
+    text-align: center;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+
+
+}
+
+.post {
+    background-color: cornflowerblue;
+    text-align: center;
+    height: 140px;
+
+}
+
+#footer {
+    background-color: khaki;
+    text-align: center;
+    height: 50px;
+    width: 500px;
+    margin-top: 10px;
+}
