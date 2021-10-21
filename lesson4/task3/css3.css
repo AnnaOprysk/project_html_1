@@ -1,0 +1,38 @@
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 500px;
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+    width: 500px;
+    color: lightgrey;
+    font-size: 26px;
+}
+.top {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.middle {
+    display: flex;
+    column-gap: 10px;
+}
+
+.smallblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12,33,65,0.91);
+    height: 180px;
+    flex-grow: 2;
+    color: #ffffff;
+}
+
+.end {
+    height: 300px;
+    margin-top: 10px;
+}
