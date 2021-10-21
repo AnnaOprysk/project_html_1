@@ -1,0 +1,32 @@
+.container {
+    box-sizing: border-box;
+    border: 4px solid dimgray;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 500px;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+.block {
+    display: flex;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+.a {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.b {
+    height: 200px;
+    flex-grow: 3;
+}
+.c {
+    height: 200px;
+    flex-grow: 1;
+}
