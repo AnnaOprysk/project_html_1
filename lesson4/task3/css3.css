@@ -28,8 +28,9 @@
     align-items: center;
     background-color: rgba(12,33,65,0.91);
     height: 180px;
-    flex-grow: 2;
+    flex-grow: 1;
     color: #ffffff;
+    width: 200px;
 }
 
 .end {
