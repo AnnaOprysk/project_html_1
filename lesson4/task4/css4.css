@@ -1,0 +1,35 @@
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 400px;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.header {
+    background-color: steelblue;
+    height: 50px;
+}
+.nav {
+    background-color: rgba(12,33,65,0.91);
+    height: 40px;
+}
+.middle {
+    display: flex;
+    height: 200px;
+}
+.middle1 {
+    background-color: cadetblue;
+    flex-grow: 3;
+}
+.middle2 {
+    background-color: darkcyan;
+    flex-grow: 1;
+}
+.footer {
+    background-color: darkturquoise;
+    height: 40px;
+}
