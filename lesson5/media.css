@@ -1,0 +1,84 @@
+@media screen and (max-width: 350px) {
+    .container {
+        height: 2270px;
+    }
+
+    .header {
+        margin-right: 150px;
+    }
+
+    .menu {
+        margin-right: 150px;
+    }
+
+    .button {
+        margin-left: -20px;
+    }
+
+    .item1 {
+        width: 25px;
+    }
+
+    .upperblock {
+        margin-right: 150px;
+    }
+
+    .toppart {
+        height: 515px;
+        padding-top: 10px;
+    }
+
+    .squarepart {
+        flex-direction: column;
+        height: 485px;
+        margin-right: 150px;
+        row-gap: 17px;
+        padding-top: 10px;
+    }
+
+    .endpart {
+        height: 515px;
+    }
+
+    .roundpart {
+        flex-direction: column;
+        margin-right: 150px;
+        row-gap: 15px;
+    }
+
+    .roundwithitems {
+        margin-top: 10px;
+    }
+
+    .second {
+        width: 200px;
+        align-items: center;
+        margin-left: 50px;
+        padding: 20px;
+    }
+
+    .itemsround {
+        flex-wrap: wrap;
+        width: 115px;
+    }
+
+    .mainblock {
+        height: 570px;
+        width: 350px;
+    }
+
+    .bottomblock {
+        flex-direction: column;
+        margin-right: 145px;
+        height: 345px;
+        margin-top: -40px;
+    }
+
+    .left-bottomblock, .right-bottomblock {
+        height: 150px;
+    }
+
+    .footer {
+        margin-right: 150px;
+    }
+}
