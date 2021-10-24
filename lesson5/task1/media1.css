@@ -1,0 +1,55 @@
+@media screen and (max-width: 350px) {
+    .container {
+        height: 1075px;
+    }
+
+      .item1 {
+        width: 25px;
+    }
+
+    .toppart {
+        height: 550px;
+        padding-top: 10px;
+    }
+
+    .squarepart {
+        flex-direction: column;
+        height: 520px;
+        margin-right: 150px;
+        row-gap: 17px;
+        padding-top: 10px;
+    }
+.secondsquare {
+    padding-bottom: 0;
+}
+.twoitemsup {
+    padding-left: 0;
+}
+    .endpart {
+        height: 515px;
+    }
+
+    .roundpart {
+        flex-direction: column;
+        margin-right: 150px;
+        row-gap: 15px;
+    }
+
+    .roundwithitems {
+        margin-top: 10px;
+    }
+
+    .second {
+        width: 200px;
+        align-items: center;
+        margin-left: 50px;
+        padding: 20px;
+    }
+
+    .itemsround {
+        flex-wrap: wrap;
+        width: 115px;
+    }
+
+
+}
