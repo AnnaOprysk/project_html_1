@@ -1,0 +1,93 @@
+@media screen and (max-width: 380px) {
+    .navbar {
+        margin: 0;
+    }
+
+    .navigation img {
+        margin-left: -85px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-item_mobile {
+        width: 21px;
+        height: 3px;
+        background-color: lightgrey;
+    }
+
+    .basic-discription {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+
+    .basic-discription__header {
+        width: 330px;
+        font-size: 34px;
+        margin-left: -90px;
+    }
+
+    .basic-discription__header-text {
+        font-size: 16px;
+        width: 340px;
+        margin-left: 8px;
+        margin-top: 260px;
+    }
+
+    .basic-discription__header-text::before {
+        margin-left: 45px;
+        top: -320px;
+    }
+
+    .basic-discription__header-text::after {
+        display: none;
+    }
+
+    .basic-discription__image img {
+        width: 334px;
+        height: 345px;
+        margin-top: 40px;
+        margin-left: -95px;
+    }
+
+    .information_energy-systems {
+        max-width: 360px;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .information_energy-systems h4 {
+        padding-left: 47px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .information_energy-systems p {
+        width: 360px;
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    .modern-standarts {
+        max-width: 360px;
+        flex-direction: column;
+    }
+
+    .modern-standarts__text {
+        height: 615px;
+    }
+
+    .modern-standarts h4 {
+        margin-right: 30px;
+        margin-top: 40px;
+    }
+
+    .modern-standarts__text p {
+        padding-left: 18px;
+        padding-right: 22px;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}
