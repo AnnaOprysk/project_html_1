@@ -1,6 +1,504 @@
-@media screen and (max-width: 329px){
-.container {
-   background-color: #D67E35;
-}
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+
+    .navbar {
+        height: 34px;
+        width: 375px;
+        padding: 0;
+    }
+
+    .nav-item,
+    .location img {
+        display: none;
+    }
+
+    .nav-item3 {
+        display: block;
+        margin-left: 19px;
+        margin-top: 6px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .location {
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+
+    .header {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .header__first-line {
+        column-gap: 20px;
+    }
+
+    .header-item__logo {
+        margin: 10px;
+    }
+
+    .header-item__logo img {
+        width: 36px;
+        height: 40px;
+    }
+
+    .header-item__logo_name {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .header-item__logo_text {
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    .header-item__working-hours,
+    .header-item__geo-location {
+        display: none;
+    }
+
+    .header-item__whatsapp_and_phone {
+        flex-direction: column-reverse;
+        margin-left: 10px;
+    }
+
+    .header-item__whatsapp {
+        width: 140px;
+        height: 18px;
+        margin-top: 10px;
+    }
+
+    .header-item__whatsapp div:nth-child(2),
+    .header-item__whatsapp div:nth-child(1) {
+        font-size: 10px;
+        line-height: 12px;
+        padding-top: 2px;
+    }
+
+    .header-item__whatsapp_word {
+        display: none;
+    }
+
+    .header-item__phone {
+        margin-top: 10px;
+    }
+
+    .header-item__phone div:nth-child(1) {
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .header-item__phone div:nth-child(2) {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 3px;
+    }
+
+    .header__second-line {
+        margin-top: 18px;
+        margin-left: 12px;
+    }
+
+    .header-item__catalogue_button button {
+        width: 38px;
+        height: 38px;
+    }
+
+    .header-item__catalogue_button_name {
+        display: none;
+    }
+
+    .header-item__catalogue_button_lines {
+        padding-left: 9px;
+        padding-top: 13px;
+    }
+
+    .header-item__search_button {
+        width: 270px;
+    }
+
+    .header-item__sign-in,
+    .header-item__favorites,
+    .header-item__basket {
+        display: none;
+    }
+
+    .input-group {
+        height: 38px;
+        background: #F4F5FA;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .header-item__search_button1 {
+        display: none;
+    }
+
+    .header-item__search_button2 {
+        display: block;
+        width: 34px;
+        height: 38px;
+        background: #005BB9;
+        border-radius: 0 4px 4px 0;
+    }
+
+    .header-item__search_button2 img {
+        margin-top: -7px;
+        margin-left: -2px;
+    }
+
+    .main__first-part div:nth-child(1) {
+        flex-direction: column;
+        width: 337px;
+    }
+
+    .main__first-part_big-item {
+        margin-left: 20px;
+        margin-top: 16px;
+        width: 338px;
+    }
+
+    .carousel-item.active div:nth-child(1) img {
+        max-width: 335px;
+        height: 220px;
+    }
+
+    .carousel-item.active div:nth-child(3) {
+        font-size: 18px;
+        line-height: 19px;
+        top: 25px;
+        left: 28px;
+    }
+
+    .carousel-item.active div:nth-child(4) {
+        top: 50px;
+        left: 28px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .carousel-item.active div:nth-child(5) {
+        top: 106px;
+        left: 28px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .carousel-item.active div:nth-child(6) {
+        top: 86px;
+        left: 28px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .carousel-item.active div button {
+        top: 143px;
+        left: 28px;
+        width: 124px;
+        height: 34px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .carousel-item.active div:nth-child(2) {
+        left: 197px;
+        bottom: 84px;
+    }
+
+    .carousel-item.active div:nth-child(2) img {
+        width: 131px;
+        height: 111px;
+    }
+
+    .carousel-indicators {
+        bottom: -4px;
+    }
+
+    .carousel-indicators > li {
+        margin: -7px 10px !important;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .main__first-part_small-products {
+        margin-top: -373px;
+        flex-direction: row;
+        width: 360px;
+        overflow: hidden;
+        column-gap: 8px;
+    }
+
+    .main__first-part_small-product {
+        width: 285px !important;
+    }
+
+    .main__first-part_small-product_part2 {
+        margin-top: -114px;
+        padding-left: 104px;
+    }
+
+    .main__first-part_small-product_part2 div:nth-child(1) {
+        font-size: 12px;
+        line-height: 15px;
+        padding-top: 31px;
+        width: 52px;
+    }
+
+    .main__first-part_small-product_part2 div:nth-child(2) {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .main__first-part_small-product_part2 div div:nth-child(1) {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .main__first-part_small-product div div:nth-child(3) {
+        padding-left: 10px;
+    }
+
+    .main__first-part_small-product_part2 div div:nth-child(2) {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .main__first-part_small-product div div:nth-child(3) button {
+        width: 37px;
+        height: 37px;
+    }
+
+    .main__second-part {
+        margin-top: 60px;
+        margin-left: 19px;
+        overflow: hidden;
+    }
+
+    .main__second-part div:nth-child(1) {
+        column-gap: 25px;
+        width: 132px;
+    }
+
+    .main__second-part_1 {
+        height: 157px !important;
+    }
+
+    .main__second-part_1 div div:nth-child(1) {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .main__second-part_1 div div:nth-child(2) {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .main__second-part_1 div:nth-child(2) img {
+        width: 74px;
+        height: 97px;
+        margin-top: 20px;
+    }
+
+    .main__third-part_three-buttons {
+        margin-left: 22px;
+        margin-top: 26px;
+        width: 95%;
+    }
+
+    .main__third-part_three-buttons button {
+        height: 36px !important;
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+
+    .main__third-part_three-buttons button:nth-child(1) {
+        width: 355px;
+    }
+
+    .main__third-part_three-buttons button:nth-child(2) {
+        width: 167px;
+    }
+
+    .main__third-part {
+        margin-left: 24px;
+        column-gap: 48px;
+        row-gap: 52px;
+    }
+
+    .main__third-part_product-card {
+        width: 138px;
+        height: 266px;
+    }
+
+    .main__third-part_product-card_image img {
+        width: 149px;
+        height: 127px;
+    }
+
+    .main__third-part_product-card_likes div:nth-child(2),
+    .main__third-part_product-card_likes div:nth-child(3) {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .main__third-part_product-card_likes div:nth-child(1) img {
+        width: 12px;
+        height: 12px;
+        margin-top: -6px;
+    }
+
+    .main__third-part_product-card_title {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .main__third-part_product-card_price div:nth-child(1),
+    .main__third-part_product-card_price div:nth-child(2) {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .product-card_image2 img:nth-child(2) {
+        width: 20px;
+        height: 9px;
+    }
+
+    .product_number2 div:nth-child(1),
+    .product_number2 div:nth-child(2) {
+        padding-top: 36px;
+    }
+
+    .main__third-part_product-card_button div button {
+        width: 110px;
+        height: 35px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .main__third-part_product-card_button div:nth-child(2) img {
+        width: 17px;
+        height: 14px;
+        margin-top: -20px;
+    }
+
+    .main__third-part_product-card_button div:nth-child(3) {
+        display: none;
+    }
+
+    .main__third-part_show-more-button {
+        margin-top: 22px;
+    }
+
+    .main__third-part_show-more-button button {
+        width: 160px;
+        height: 34px;
+    }
+
+    .bottom_part__news {
+        font-size: 16px;
+        line-height: 19px;
+        margin: 48px 0 10px 24px;
+    }
+
+    .bottom_part__horisontal-line {
+        display: none;
+    }
+
+    .bottom_part__news_last-news {
+        margin-left: 24px;
+        flex-direction: column;
+        row-gap: 9px;
+    }
+
+    .bottom_part__news_last-news_item {
+        margin-top: 26px;
+        width: 328px;
+        height: 213px;
+    }
+
+    .bottom_part__news_last-news_item div:nth-child(1) {
+        display: none;
+    }
+
+    .bottom_part__news_last-news_item div:nth-child(2) img {
+        margin-top: -15px;
+    }
+
+    .bottom_part__news_last-news_item div:nth-child(3) {
+        font-weight: 500;
+    }
+
+    .bottom_part__news_last-news div:nth-child(2) {
+        height: auto;
+    }
+
+    .footer {
+        margin-top: 46px;
+        height: 1480px;
+        width: 375px;
+    }
+
+    .footer__block-with-items {
+        flex-direction: column;
+        margin-left: 24px;
+    }
+
+    .footer__items {
+        flex-direction: column;
+    }
+
+    .footer__item_feedback {
+        flex-direction: column;
+    }
+
+    .footer__item_feedback div:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .footer__item_feedback div:nth-child(1),
+    .footer__item_feedback div:nth-child(2),
+    .footer__item_mailing {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .footer__item_mailing {
+        width: 330px;
+    }
+
+    .footer__item_subscribe {
+        width: 338px;
+    }
+
+    .input-group {
+        height: 34px;
+        background-color: transparent;
+    }
+
+    .footer__item_subscribe div button {
+        height: 40px;
+        width: 104px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer__item_social-network {
+        margin-left: 3px;
+        margin-top: 17px;
+    }
+
+    .footer__item_copyright {
+        margin-left: 24px;
+        margin-top: 35px;
+        border-top: 1px solid #737E9B;
+        padding-top: 14px;
+    }
 
 }
