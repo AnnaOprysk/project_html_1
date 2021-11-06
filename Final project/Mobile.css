@@ -326,6 +326,10 @@
         width: 167px;
     }
 
+    .main__third-part_three-buttons button:nth-child(3) {
+        width: 69px;
+    }
+
     .main__third-part {
         margin-left: 24px;
         column-gap: 48px;
@@ -415,6 +419,7 @@
         margin-left: 24px;
         flex-direction: column;
         row-gap: 9px;
+        width: 340px;
     }
 
     .bottom_part__news_last-news_item {
@@ -452,6 +457,7 @@
 
     .footer__items {
         flex-direction: column;
+        width: 340px;
     }
 
     .footer__item_feedback {
