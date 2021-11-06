@@ -19,12 +19,14 @@
     line-height: 16px;
     padding: 12px 260px 0 260px;
     display: flex;
-    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     color: #FFFFFF;
 }
 
 .navbar div:nth-child(1) {
     display: flex;
+    margin-bottom: 6px;
 }
 
 li {
